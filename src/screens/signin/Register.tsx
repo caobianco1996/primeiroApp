@@ -20,32 +20,32 @@ export function Register() {
       <Image source={logoSmall} style={styles.imageLogo} resizeMode="stretch" />
       <View style={styles.content}>
         <Text style={styles.title}>Insira os dados da sua conta {"\n"}</Text>
-        <Text style={styles.label1}>E-mail *</Text>
+        <Text style={(styles.label, styles.marginTop)}>E-mail *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu e-mail"
           keyboardType="email-address"
           placeholderTextColor={theme.colors.primary}
           maxLength={20}
         ></TextInput>
-        <Text style={styles.label1}>Nome de Usuario *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Nome de Usuario *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu nome de usuário"
           placeholderTextColor={theme.colors.primary}
           maxLength={20}
         ></TextInput>
-        <Text style={styles.label1}>Senha *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Senha *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira sua senha"
           keyboardType="visible-password"
           placeholderTextColor={theme.colors.primary}
           maxLength={20}
         ></TextInput>
-        <Text style={styles.label1}>Confirme a senha *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Confirme a senha *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira sua senha novamente"
           keyboardType="visible-password"
           placeholderTextColor={theme.colors.primary}

@@ -30,8 +30,8 @@ export function FinishRegister() {
         <Text style={styles.title}>
           Seu perfil foi criado com sucesso! {"\n"}
         </Text>
-        <Text style={styles.text1}>
-          REalize o login com as credenciais inseridas nos campos{"\n"}
+        <Text style={(styles.text, styles.alingCenter)}>
+          Realize o login com as credenciais inseridas nos campos{"\n"}
         </Text>
       </View>
       <View style={styles.controlsbutons}>

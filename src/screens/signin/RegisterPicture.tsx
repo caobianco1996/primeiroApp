@@ -28,7 +28,9 @@ export function RegisterPicture() {
         resizeMode="stretch"
       />
       <View style={styles.content}>
-        <Text style={styles.text1}>Selecionar foto de perfil{"\n"}</Text>
+        <Text style={(styles.text, styles.alingCenter)}>
+          Selecionar foto de perfil{"\n"}
+        </Text>
       </View>
       <Text>
         {"\n"}

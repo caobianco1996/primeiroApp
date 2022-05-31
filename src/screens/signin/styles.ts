@@ -11,19 +11,14 @@ export const styles = StyleSheet.create({
     width: "100%",
   },
   label: {
-    color: theme.colors.primary,
     fontFamily: theme.fonts.text500,
     fontSize: 15,
     textAlign: "left",
-    fontWeight: "bold",
   },
-  label1: {
+  marginTop: {
     color: theme.colors.primary,
-    fontFamily: theme.fonts.text500,
-    fontSize: 15,
-    textAlign: "left",
-    fontWeight: "bold",
     marginTop: 10,
+    fontWeight: "bold",
   },
   input: {
     color: theme.colors.primary,
@@ -35,27 +30,22 @@ export const styles = StyleSheet.create({
     marginBottom: 10,
     marginTop: 10,
   },
-  input1: {
-    color: theme.colors.primary,
-    fontFamily: theme.fonts.text400,
-    fontSize: 16,
+  register: {
     textAlign: "left",
+    fontSize: 14,
     borderBottomColor: theme.colors.primary,
     borderBottomWidth: 2,
-    marginBottom: 10,
-    marginTop: 10,
+  },
+  alingLeft: {
+    textAlign: "left",
+  },
+  alingCenter: {
+    textAlign: "center",
   },
   text: {
     color: theme.colors.primary,
     fontFamily: theme.fonts.text400,
     fontSize: 16,
-    textAlign: "left",
-  },
-  text1: {
-    color: theme.colors.primary,
-    fontFamily: theme.fonts.text400,
-    fontSize: 16,
-    textAlign: "center",
   },
   content: {
     marginTop: 0,

@@ -19,12 +19,12 @@ export function RememberPassword() {
       <Image source={logoSmall} style={styles.imageLogo} resizeMode="stretch" />
       <View style={styles.content}>
         <Text style={styles.title}>Esqueceu a Senha? {"\n"}</Text>
-        <Text style={styles.text}>
+        <Text style={(styles.text, styles.alingLeft)}>
           Digite seu e-mail para receber a senha {"\n"}
         </Text>
         <Text style={styles.label}>E-mail</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu e-mail"
           keyboardType="email-address"
           placeholderTextColor={theme.colors.primary}

@@ -9,8 +9,8 @@ import { useNavigation } from "@react-navigation/native";
 export function FinishPassword() {
   const navigation = useNavigation<any>();
 
-  const FinishPassword = () => {
-    navigation.navigate("FinishPassword");
+  const handleNavigate = () => {
+    navigation.navigate("SignIn");
     // navigation.goBack();
   };
 
@@ -30,12 +30,12 @@ export function FinishPassword() {
       />
       <View style={styles.content}>
         <Text style={styles.title}>Confira seu E-mail {"\n"}</Text>
-        <Text style={styles.text1}>
+        <Text style={(styles.text, styles.alingCenter)}>
           Enviamos as intruções no seu E-mail{"\n"}
         </Text>
       </View>
       <View style={styles.controlsbutons}>
-        <Button title="Entrar" onPress={FinishPassword} />
+        <Button title="Entrar" onPress={handleNavigate} />
       </View>
     </View>
   );

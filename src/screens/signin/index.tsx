@@ -33,8 +33,8 @@ export function SignIn() {
 
       <View style={styles.content}>
         <Text style={styles.title}>
-          Bem Vindos de Volta {"\n"}
-          Sentimos sua Falta {"\n"}
+          Bem Vindos de Volta! {"\n"}
+          Sentimos sua Falta... {"\n"}
         </Text>
 
         <Text style={styles.label}>E-mail {"\n"}</Text>
@@ -64,7 +64,7 @@ export function SignIn() {
       </View>
 
       <View style={styles.controlsbutons}>
-        <Button title="Continuar" onPress={handleNavigate} />
+        <Button title="Entrar" onPress={handleNavigate} />
       </View>
       <Image source={linha} style={styles.linha} />
       <View style={styles.controlsbutons1}>

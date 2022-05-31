@@ -23,39 +23,39 @@ export function RegisterAddress() {
           Para começar, insira seu endereço {"\n"}
         </Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Cidade, Estado, Pais"
           keyboardType="default"
           placeholderTextColor={theme.colors.primary}
           maxLength={20}
         ></TextInput>
-        <Text style={styles.label1}>CEP *</Text>
+        <Text style={(styles.label, styles.marginTop)}>CEP *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu CEP"
           keyboardType="number-pad"
           placeholderTextColor={theme.colors.primary}
           maxLength={8}
         ></TextInput>
-        <Text style={styles.label1}>Endereço *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Endereço *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu endereço"
           keyboardType="default"
           placeholderTextColor={theme.colors.primary}
           maxLength={20}
         ></TextInput>
-        <Text style={styles.label1}>Número *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Número *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu número"
           keyboardType="number-pad"
           placeholderTextColor={theme.colors.primary}
           maxLength={4}
         ></TextInput>
-        <Text style={styles.label1}>Complemento *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Complemento *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu complemento"
           keyboardType="default"
           placeholderTextColor={theme.colors.primary}

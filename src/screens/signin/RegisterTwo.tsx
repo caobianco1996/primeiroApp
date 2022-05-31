@@ -19,31 +19,31 @@ export function RegisterTwo() {
       <Image source={logoSmall} style={styles.imageLogo} resizeMode="stretch" />
       <View style={styles.content}>
         <Text style={styles.title}>Insira seus dados pessoais {"\n"}</Text>
-        <Text style={styles.label1}>Nome *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Nome *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu nome"
           placeholderTextColor={theme.colors.primary}
           maxLength={20}
         ></TextInput>
-        <Text style={styles.label1}>Sobrenome *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Sobrenome *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu sobrenome"
           placeholderTextColor={theme.colors.primary}
           maxLength={20}
         ></TextInput>
-        <Text style={styles.label1}>Celular *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Celular *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu celular"
           keyboardType="phone-pad"
           placeholderTextColor={theme.colors.primary}
           maxLength={20}
         ></TextInput>
-        <Text style={styles.label1}>Telefone *</Text>
+        <Text style={(styles.label, styles.marginTop)}>Telefone *</Text>
         <TextInput
-          style={styles.input1}
+          style={(styles.input, styles.register)}
           placeholder="Insira seu telefone"
           keyboardType="phone-pad"
           placeholderTextColor={theme.colors.primary}
