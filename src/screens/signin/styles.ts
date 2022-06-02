@@ -35,6 +35,7 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     borderBottomColor: theme.colors.primary,
     borderBottomWidth: 2,
+    marginBottom: 20,
   },
   alingLeft: {
     textAlign: "left",
@@ -57,7 +58,7 @@ export const styles = StyleSheet.create({
     width: "100%",
     paddingHorizontal: 35,
   },
-  controlsbutons1: {
+  butons: {
     marginTop: 15,
     width: "100%",
     paddingHorizontal: 35,

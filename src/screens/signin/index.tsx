@@ -67,7 +67,7 @@ export function SignIn() {
         <Button title="Entrar" onPress={handleNavigate} />
       </View>
       <Image source={linha} style={styles.linha} />
-      <View style={styles.controlsbutons1}>
+      <View style={styles.butons}>
         <Button title="Crie sua conta" onPress={register} />
       </View>
       <View style={styles.controls}>
