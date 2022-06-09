@@ -10,6 +10,9 @@ import { RegisterTwo } from "../screens/signin/RegisterTwo";
 import { RegisterAddress } from "../screens/signin/RegisterAddress";
 import { RegisterPicture } from "../screens/signin/RegisterPicture";
 import { FinishRegister } from "../screens/signin/FinishRegister";
+import { HomeStart } from "../screens/start/HomeStart";
+import { Profile } from "../screens/start/Profile";
+
 const Stack = createStackNavigator();
 
 export function AppRoutes() {
@@ -25,6 +28,8 @@ export function AppRoutes() {
       <Stack.Screen name="RegisterAddress" component={RegisterAddress} />
       <Stack.Screen name="RegisterPicture" component={RegisterPicture} />
       <Stack.Screen name="FinishRegister" component={FinishRegister} />
+      <Stack.Screen name="HomeStart" component={HomeStart} />
+      <Stack.Screen name="Profile" component={Profile} />
     </Stack.Navigator>
   );
 }

@@ -18,7 +18,7 @@ export function Start() {
 
   return (
     <Background>
-      <View style={styles.container}>
+      <View style={styles.container_a}>
         <Image
           source={logoSmall}
           style={styles.imageLogo}
@@ -29,7 +29,7 @@ export function Start() {
         </Text>
         <Image
           source={IllustrationImg}
-          style={styles.image}
+          style={styles.image_a}
           resizeMode="stretch"
         />
 

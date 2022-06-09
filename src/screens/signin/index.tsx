@@ -11,12 +11,13 @@ import { Button } from "../../components/Button";
 import { TextInput } from "react-native-gesture-handler";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import React, { useState } from "react";
+import { HomeStart } from "../start/HomeStart";
 
 export function SignIn() {
   const navigation = useNavigation<any>();
 
-  const handleNavigate = () => {
-    navigation.navigate("Start");
+  const HomeStart = () => {
+    navigation.navigate("HomeStart");
     // navigation.goBack();
   };
 
@@ -64,7 +65,7 @@ export function SignIn() {
       </View>
 
       <View style={styles.controlsbutons}>
-        <Button title="Entrar" onPress={handleNavigate} />
+        <Button title="Entrar" onPress={HomeStart} />
       </View>
       <Image source={linha} style={styles.linha} />
       <View style={styles.butons}>
