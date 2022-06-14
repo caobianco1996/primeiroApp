@@ -1,14 +1,6 @@
 import { View, Text, Image, ScrollView } from "react-native";
 import { styles } from "./styles";
-import Grupo417 from "../../assets/Grupo417.png";
 import bag from "../../assets/bag.png";
-import Notebooks from "../../assets/Notebooks.png";
-import Periferico from "../../assets/Periferico.png";
-import Hardware from "../../assets/Hardware.png";
-import Vector from "../../assets/Vector.png";
-import Grupo414 from "../../assets/Grupo 414.png";
-import Group from "../../assets/Group.png";
-import Elipse from "../../assets/Elipse 1.png";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import { TextInput, TouchableOpacity } from "react-native-gesture-handler";
 import { Button } from "../../components/Button";

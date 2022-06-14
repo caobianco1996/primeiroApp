@@ -11,7 +11,6 @@ import { Button } from "../../components/Button";
 import { TextInput } from "react-native-gesture-handler";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import React, { useState } from "react";
-import { HomeStart } from "../start/HomeStart";
 
 export function SignIn() {
   const navigation = useNavigation<any>();

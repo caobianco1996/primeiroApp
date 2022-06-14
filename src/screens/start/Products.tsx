@@ -1,6 +1,5 @@
 import { View, Text, Image, ScrollView } from "react-native";
 import { styles } from "./styles";
-import Grupo417 from "../../assets/Grupo417.png";
 import bag from "../../assets/bag.png";
 import Notebooks from "../../assets/Notebooks.png";
 import Periferico from "../../assets/Periferico.png";

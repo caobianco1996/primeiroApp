@@ -1,10 +1,6 @@
 import { View, Text, Image, Touchable, ScrollView } from "react-native";
 import { styles } from "./styles";
-import Grupo417 from "../../assets/Grupo417.png";
 import ImagemPerfil from "../../assets/ImagemPerfil.png";
-import Notebooks from "../../assets/Notebooks.png";
-import Periferico from "../../assets/Periferico.png";
-import Hardware from "../../assets/Hardware.png";
 import Vector from "../../assets/Vector.png";
 import Grupo414 from "../../assets/Grupo 414.png";
 import Group from "../../assets/Group.png";

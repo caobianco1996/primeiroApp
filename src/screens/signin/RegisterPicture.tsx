@@ -1,7 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { View, Text, Image, Alert, ActivityIndicator } from "react-native";
 import { styles } from "./styles";
-import { theme } from "../../global/styles/theme";
 import logoSmall from "../../assets/app-name-small.png";
 import ImagemPerfil from "../../assets/ImagemPerfil.png";
 import { Button } from "../../components/Button";

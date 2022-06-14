@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import { View, Text, Image } from "react-native";
 import { styles } from "./styles";
 import IllustrationImg from "../../assets/Ilustration.png";
