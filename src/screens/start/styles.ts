@@ -27,12 +27,26 @@ export const styles = StyleSheet.create({
   },
   container_d: {
     flex: 1,
-    paddingTop: 40,
+    paddingTop: 10,
     backgroundColor: theme.colors.white,
     display: "flex",
     justifyContent: "space-evenly",
     alignItems: "center",
     flexDirection: "row",
+  },
+  separate: {
+    flex: 1,
+    paddingTop: 10,
+    backgroundColor: theme.colors.white,
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    flexDirection: "row",
+  },
+  container_e: {
+    paddingLeft: 25,
+    paddingRight: 25,
+    backgroundColor: theme.colors.white,
   },
   image_a: {
     width: "100%",
@@ -61,9 +75,16 @@ export const styles = StyleSheet.create({
   },
   image_f: {
     flex: 1,
-    maxWidth: 110,
+    maxWidth: 100,
     height: 100,
     alignItems: "center",
+  },
+  image_g: {
+    backgroundColor: "gray",
+    height: 100,
+    width: 100,
+    maxHeight: 100,
+    maxWidth: 100,
   },
   imageLogo: {
     marginTop: 20,
@@ -104,14 +125,35 @@ export const styles = StyleSheet.create({
     fontSize: 14,
     textAlign: "center",
     marginBottom: 10,
-    fontFamily: theme.fonts.title500,
     lineHeight: 25,
+  },
+  red: {
+    color: "red",
+    marginTop: 20,
+  },
+  subtitle_c: {
+    color: theme.colors.text,
+    fontSize: 20,
+    textAlign: "left",
+    marginBottom: 10,
+    fontFamily: theme.fonts.text500,
+  },
+  subtitle_d: {
+    color: theme.colors.secundary,
+    fontSize: 14,
+    textAlign: "left",
+    marginBottom: 10,
+    fontFamily: theme.fonts.text500,
   },
   title_a: {
     color: theme.colors.text,
     fontWeight: "bold",
     fontSize: 25,
     marginLeft: 20,
+  },
+  linha: {
+    borderBottomColor: "#d3d3d3",
+    borderBottomWidth: 2,
   },
   buttons: {
     width: "100%",

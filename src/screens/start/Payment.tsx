@@ -22,84 +22,83 @@ export function Payment() {
         </View>
 
         <View>
-        <TextInput
-          //style={(styles.input, styles.register)}
-          placeholder="qq coisa"
-          //placeholderTextColor={theme.colors.primary}
-          maxLength={20}
-        ></TextInput>
+          <TextInput
+            //style={(styles.input, styles.register)}
+            placeholder="qq coisa"
+            //placeholderTextColor={theme.colors.primary}
+            maxLength={20}
+          ></TextInput>
         </View>
-
 
         <View style={styles.container_c}>
           <Text style={styles.subtitle_b}>MacBook Air R$10000</Text>
         </View>
         <View
-  style={{
-    borderBottomColor: 'black',
-    borderBottomWidth: 1,
-  }}
-/>
-<View style={styles.container_c}>
+          style={{
+            borderBottomColor: "black",
+            borderBottomWidth: 1,
+          }}
+        />
+        <View style={styles.container_c}>
           <Text style={styles.subtitle_b}>Inter Core R$10000</Text>
         </View>
         <View
-  style={{
-    borderBottomColor: 'black',
-    borderBottomWidth: 1,
-  }}
-/>
-<View style={styles.container_c}>
+          style={{
+            borderBottomColor: "black",
+            borderBottomWidth: 1,
+          }}
+        />
+        <View style={styles.container_c}>
           <Text style={styles.subtitle_b}>Inter Core R$10000</Text>
         </View>
-        <View
-/>
+        <View />
 
-<View style={styles.container_c}>
+        <View style={styles.container_c}>
           <Text style={styles.subtitle_b}>Envio para</Text>
         </View>
         <View style={styles.container_c}>
-        <Text style={styles.subtitle_b}>Avenida aaaa</Text>
-        <Text style={styles.subtitle_b}>Alterar</Text>
-        
+          <Text style={styles.subtitle_b}>Avenida aaaa</Text>
+          <Text style={styles.subtitle_b}>Alterar</Text>
         </View>
- <View
-  style={{
-    borderBottomColor: 'black',
-    borderBottomWidth: 1,
-  }}
-/>
+        <View
+          style={{
+            borderBottomColor: "black",
+            borderBottomWidth: 1,
+          }}
+        />
 
         <View style={styles.container_c}>
           <Text style={styles.subtitle_b}>Pagamento</Text>
         </View>
         <View style={styles.container_c}>
-        <Text style={styles.subtitle_b}>Cartao</Text>
-        <Text style={styles.subtitle_b}>Alterar</Text>
+          <Text style={styles.subtitle_b}>Cartao</Text>
+          <Text style={styles.subtitle_b}>Alterar</Text>
         </View>
 
-        
         <View
-  style={{
-    borderBottomColor: 'black',
-    borderBottomWidth: 1,
-  }}
-/>
+          style={{
+            borderBottomColor: "black",
+            borderBottomWidth: 1,
+          }}
+        />
         <View>
-    <Text style={styles.subtitle_b}>Cupom de desconto</Text>
-    <TextInput>Insira seu cupom</TextInput>
-</View>
+          <Text style={styles.subtitle_b}>Cupom de desconto</Text>
+          <TextInput>Insira seu cupom</TextInput>
+        </View>
 
-<View>
-    <Text style={styles.subtitle_b}>SubTotal{"\n"}{"\n"}Frete</Text>
-</View>
-<View>
-    <Text style={styles.title_a}>Total</Text>
-    <Text>R$ 13000,00</Text>
-</View>
-<View style={styles.controlsbutons}>
-        <Button title="Comprar" onPress={Profile} />
-      </View>
+        <View>
+          <Text style={styles.subtitle_b}>
+            SubTotal{"\n"}
+            {"\n"}Frete
+          </Text>
+        </View>
+        <View>
+          <Text style={styles.title_a}>Total</Text>
+          <Text>R$ 13000,00</Text>
+        </View>
+        <View style={styles.controlsbutons}>
+          <Button title="Comprar" onPress={Profile} />
+        </View>
       </View>
     </ScrollView>
   );
