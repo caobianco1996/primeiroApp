@@ -40,137 +40,55 @@ export function Profile() {
           </Text>
         </View>
 
-        <View>
-          <Image
-            source={Grupo417}
-            style={styles.image_c}
-            resizeMode="stretch"
-          />
+
+        <View style={styles.container_c}>
+          <Text style={styles.subtitle_b}>Configurações </Text>
         </View>
 
         <View style={styles.container_c}>
-          <Text style={styles.subtitle_a}>Notebooks {"\n"}</Text>
-          <Text style={styles.subtitle_a}>Ver Tudo {"\n"}</Text>
+          <Text style={styles.subtitle_b}>Editar Perfil</Text>
+        </View>
+        <View
+  style={{
+    borderBottomColor: 'black',
+    borderBottomWidth: 1,
+  }}
+/>
+        <View style={styles.container_c}>
+          <Text style={styles.subtitle_b}>Alterar Senha</Text>
+        </View>
+        <View
+  style={{
+    borderBottomColor: 'black',
+    borderBottomWidth: 1,
+  }}
+/>
+<View style={styles.container_c}>
+          <Text style={styles.subtitle_b}>Suporte </Text>
         </View>
 
         <View style={styles.container_c}>
-          <View>
-            <Image
-              source={Notebooks}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
-          <View>
-            <Image
-              source={Notebooks}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
-          <View>
-            <Image
-              source={Notebooks}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"} MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
+          <Text style={styles.subtitle_b}>Ajuda e suporte</Text>
         </View>
-
+        <View
+  style={{
+    borderBottomColor: 'black',
+    borderBottomWidth: 1,
+  }}
+/>
         <View style={styles.container_c}>
-          <Text style={styles.subtitle_a}>Hardware {"\n"}</Text>
-          <Text style={styles.subtitle_a}>Ver Tudo {"\n"}</Text>
+          <Text style={styles.subtitle_b}>Sobre Mw MarketPlace</Text>
         </View>
+        <View
+  style={{
+    borderBottomColor: 'black',
+    borderBottomWidth: 1,
+  }}
+/>
 
-        <View style={styles.container_c}>
-          <View>
-            <Image
-              source={Hardware}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
-          <View>
-            <Image
-              source={Hardware}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
-          <View>
-            <Image
-              source={Hardware}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"} MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
-        </View>
-
-        <View style={styles.container_c}>
-          <Text style={styles.subtitle_a}>Periferico {"\n"}</Text>
-          <Text style={styles.subtitle_a}>Ver Tudo {"\n"}</Text>
-        </View>
-
-        <View style={styles.container_c}>
-          <View>
-            <Image
-              source={Periferico}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
-          <View>
-            <Image
-              source={Periferico}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
-          <View>
-            <Image
-              source={Periferico}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
-            <Text style={styles.subtitle_b}>
-              {"\n"} MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
-              10000,00
-            </Text>
-          </View>
-        </View>
-
+<View style={styles.container_d}>
+<Text style={styles.subtitle_b}>Deslogar</Text>
+</View>
         <View>
           <View style={styles.buttons}>
             <View style={styles.icons}>

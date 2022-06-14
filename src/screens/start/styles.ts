@@ -19,6 +19,7 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
   },
   container_c: {
+    backgroundColor: theme.colors.white,
     paddingTop: 40,
     display: "flex",
     justifyContent: "space-between",
@@ -53,10 +54,10 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   image_e: {
-    flex: 1,
     width: 40,
     height: 30,
     alignItems: "center",
+    justifyContent: "center",
   },
   image_f: {
     flex: 1,
@@ -124,5 +125,11 @@ export const styles = StyleSheet.create({
     display: "flex",
     justifyContent: "space-between",
     flexDirection: "row",
+  },
+  controlsbutons: {
+    marginTop: 30,
+    width: "100%",
+    paddingHorizontal: 35,
+    paddingBottom: 30,
   },
 });

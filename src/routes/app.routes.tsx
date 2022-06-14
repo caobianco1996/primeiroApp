@@ -12,6 +12,9 @@ import { RegisterPicture } from "../screens/signin/RegisterPicture";
 import { FinishRegister } from "../screens/signin/FinishRegister";
 import { HomeStart } from "../screens/start/HomeStart";
 import { Profile } from "../screens/start/Profile";
+import { Products } from "../screens/start/Products";
+import { Cart } from "../screens/start/Cart";
+import { Payment } from "../screens/start/Payment";
 
 const Stack = createStackNavigator();
 
@@ -30,6 +33,9 @@ export function AppRoutes() {
       <Stack.Screen name="FinishRegister" component={FinishRegister} />
       <Stack.Screen name="HomeStart" component={HomeStart} />
       <Stack.Screen name="Profile" component={Profile} />
+      <Stack.Screen name="Products" component={Products} />
+      <Stack.Screen name="Cart" component={Cart} />
+      <Stack.Screen name="Payment" component={Payment} />
     </Stack.Navigator>
   );
 }

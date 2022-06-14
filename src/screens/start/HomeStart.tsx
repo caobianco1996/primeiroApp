@@ -19,6 +19,10 @@ export function HomeStart() {
     navigation.navigate("Profile");
     // navigation.goBack();
   };
+  const Products = () => {
+    navigation.navigate("Products");
+    // navigation.goBack();
+  };
 
   return (
     <ScrollView>
@@ -53,6 +57,7 @@ export function HomeStart() {
               10000,00
             </Text>
           </View>
+
           <View>
             <Image
               source={Notebooks}
@@ -136,22 +141,26 @@ export function HomeStart() {
             </Text>
           </View>
           <View>
-            <Image
-              source={Periferico}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
+            <TouchableOpacity onPress={Profile}>
+              <Image
+                source={Periferico}
+                style={styles.image_d}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
             <Text style={styles.subtitle_b}>
               {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
             </Text>
           </View>
           <View>
-            <Image
-              source={Periferico}
-              style={styles.image_d}
-              resizeMode="stretch"
-            />
+            <TouchableOpacity onPress={Profile}>
+              <Image
+                source={Periferico}
+                style={styles.image_d}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
             <Text style={styles.subtitle_b}>
               {"\n"} MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
@@ -176,7 +185,7 @@ export function HomeStart() {
                   resizeMode="stretch"
                 />
               </TouchableOpacity>
-              <TouchableOpacity>
+              <TouchableOpacity onPress={Products}>
                 <Image
                   source={Group}
                   style={styles.image_e}
