@@ -8,9 +8,10 @@ import Hardware from "../../assets/Hardware.png";
 import Vector from "../../assets/Vector.png";
 import Novo from "../../assets/Novo.png";
 import Group from "../../assets/Group.png";
-import Elipse from "../../assets/Elipse 1.png";
+import ImagemPerfil from "../../assets/ImagemPerfil.png";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import { TouchableOpacity } from "react-native-gesture-handler";
+import { Payment } from "./Payment";
 
 export function HomeStart() {
   const navigation = useNavigation<any>();
@@ -23,13 +24,23 @@ export function HomeStart() {
     navigation.navigate("Products");
     // navigation.goBack();
   };
+  const Cart = () => {
+    navigation.navigate("Cart");
+    // navigation.goBack();
+  };
+  const Payment = () => {
+    navigation.navigate("Payment");
+    // navigation.goBack();
+  };
 
   return (
     <ScrollView>
       <View>
         <View style={styles.container_c}>
           <Text style={styles.title_a}>Home {"\n"}</Text>
-          <Image source={bag} style={styles.image_b} resizeMode="stretch" />
+          <TouchableOpacity onPress={Cart}>
+            <Image source={bag} style={styles.image_b} resizeMode="stretch" />
+          </TouchableOpacity>
         </View>
 
         <View>
@@ -154,13 +165,11 @@ export function HomeStart() {
             </Text>
           </View>
           <View>
-            <TouchableOpacity onPress={Profile}>
-              <Image
-                source={Periferico}
-                style={styles.image_d}
-                resizeMode="stretch"
-              />
-            </TouchableOpacity>
+            <Image
+              source={Periferico}
+              style={styles.image_d}
+              resizeMode="stretch"
+            />
             <Text style={styles.subtitle_b}>
               {"\n"} MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
@@ -168,38 +177,36 @@ export function HomeStart() {
           </View>
         </View>
 
-        <View>
+        <View style={styles.container_b}>
           <View style={styles.buttons}>
-            <View style={styles.icons}>
-              <TouchableOpacity>
-                <Image
-                  source={Vector}
-                  style={styles.image_e}
-                  resizeMode="stretch"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity>
-                <Image
-                  source={Novo}
-                  style={styles.image_e}
-                  resizeMode="stretch"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity onPress={Products}>
-                <Image
-                  source={Group}
-                  style={styles.image_e}
-                  resizeMode="stretch"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity onPress={Profile}>
-                <Image
-                  source={Elipse}
-                  style={styles.image_e}
-                  resizeMode="stretch"
-                />
-              </TouchableOpacity>
-            </View>
+            <TouchableOpacity>
+              <Image
+                source={Vector}
+                style={styles.image_e}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={Products}>
+              <Image
+                source={Group}
+                style={styles.image_e}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={Payment}>
+              <Image
+                source={Novo}
+                style={styles.image_e}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={Profile}>
+              <Image
+                source={ImagemPerfil}
+                style={styles.image_e}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
           </View>
         </View>
       </View>
