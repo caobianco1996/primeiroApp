@@ -190,7 +190,6 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 35,
     paddingBottom: 30,
   },
-<<<<<<< HEAD
 
   pagamento: {
     color: theme.colors.text,
@@ -366,7 +365,6 @@ export const styles = StyleSheet.create({
     marginRight: 60,
   },
 
-=======
   input: {
     color: theme.colors.primary,
     fontFamily: theme.fonts.text400,
@@ -377,5 +375,4 @@ export const styles = StyleSheet.create({
     marginBottom: 10,
     marginTop: 10,
   },
->>>>>>> b64a582152fa4353944fc0b1855fda7c635a2699
 });
