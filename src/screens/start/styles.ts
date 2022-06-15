@@ -176,4 +176,179 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 35,
     paddingBottom: 30,
   },
+
+  pagamento: {
+    color: theme.colors.text,
+    fontSize: 14,
+    textAlign: "center",
+    marginBottom: 10,
+    marginLeft: 20,
+    marginRight: 20,
+    lineHeight: 15,
+  },
+
+  envio_para: {
+    color: "gray",
+    fontSize: 12,
+    textAlign: "center",   
+    marginLeft: 20,
+    marginRight: 20,
+    lineHeight: 15,
+  },
+
+  envio_para_purple: {
+    color: "purple",
+    fontSize: 12,
+    textAlign: "center",   
+    marginLeft: 20,
+    marginRight: 20,
+    lineHeight: 15,
+  },
+
+  envio_para_title: {
+    color: theme.colors.text,
+    fontSize: 15,
+    textAlign: "center",   
+    marginLeft: 20,
+    marginRight: 20,
+    marginTop: 100,
+    lineHeight: 15,
+  },
+
+  container_envio: {
+    backgroundColor: theme.colors.white,
+    display: "flex",
+    justifyContent: "space-between",
+    flexDirection: "row",
+  },
+
+  container_envio_para: {
+    backgroundColor: theme.colors.white,
+    paddingTop: 20,
+    display: "flex",
+    justifyContent: "space-between",
+    flexDirection: "row",
+  },
+
+  container_envio2: {
+    backgroundColor: theme.colors.white,
+    paddingBottom: 25,
+    display: "flex",
+    justifyContent: "space-between",
+    flexDirection: "row",
+  },
+
+  pagamento_title: {
+    color: theme.colors.text,
+    fontSize: 15,
+    textAlign: "center",   
+    marginLeft: 20,
+    marginRight: 20,
+    marginTop: 5,
+    lineHeight: 15,
+  },
+
+  container_pagamento: {
+    backgroundColor: theme.colors.white,
+    display: "flex",
+    justifyContent: "space-between",
+    flexDirection: "row",
+    marginTop: 10,
+  },
+
+  image_card: {
+    width: 45,
+    height: 25,
+    marginLeft: 50,
+  },
+
+  container_pagamento_para: {
+    backgroundColor: theme.colors.white,
+    paddingTop: 20,
+    display: "flex",
+    justifyContent: "space-between",
+    flexDirection: "row",
+  },
+
+  pagamento_para: {
+    color: theme.colors.text,
+    fontSize: 12,
+    textAlign: "center",   
+    marginLeft: 20,
+    marginRight: 20,
+    lineHeight: 15,
+  },
+
+  pagamento_para_purple: {
+    color: "purple",
+    fontSize: 12,
+    textAlign: "center",   
+    marginLeft: 20,
+    marginRight: 20,
+    lineHeight: 15,
+  },
+
+  pagamento_style: {
+    color: "gray",
+    fontSize: 20,
+    textAlign: "center",   
+    marginLeft: -50,
+    marginRight: -40,
+    lineHeight: 20,
+  },
+
+  pagamento_style2: {
+    color: "gray",
+    fontSize: 12,
+    textAlign: "center",   
+    marginLeft: 120,
+    lineHeight: 15,
+  },
+
+  final: {
+    color: "gray",
+    fontSize: 14,
+    textAlign: "center",
+    marginLeft: 20,
+    marginRight: 20,
+    lineHeight: 15,
+  },
+
+  total: {
+    color: theme.colors.text,
+    fontSize: 20,
+    textAlign: "center",
+    marginLeft: 20,
+    marginRight: 20,
+    lineHeight: 20,
+    fontWeight: "bold",
+  },
+
+  container_final: {
+    backgroundColor: theme.colors.white,
+    paddingTop: 10,
+    display: "flex",
+    justifyContent: "space-between",
+    flexDirection: "row",
+  },
+
+  container_pag: {
+    backgroundColor: theme.colors.white,
+    paddingTop: 40, 
+    flexDirection: "row",
+  },
+
+  title_pag: {
+    color: theme.colors.text,
+    fontWeight: "bold",
+    fontSize: 25,    
+  },
+
+  image_arrow: {
+    width: 50,
+    height: 40,
+    marginLeft: 20,
+    marginRight: 60,
+  },
+
 });
