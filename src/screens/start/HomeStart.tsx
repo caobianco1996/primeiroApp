@@ -6,7 +6,7 @@ import Notebooks from "../../assets/Notebooks.png";
 import Periferico from "../../assets/Periferico.png";
 import Hardware from "../../assets/Hardware.png";
 import Vector from "../../assets/Vector.png";
-import Grupo414 from "../../assets/Grupo 414.png";
+import Novo from "../../assets/Novo.png";
 import Group from "../../assets/Group.png";
 import Elipse from "../../assets/Elipse 1.png";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
@@ -180,7 +180,7 @@ export function HomeStart() {
               </TouchableOpacity>
               <TouchableOpacity>
                 <Image
-                  source={Grupo414}
+                  source={Novo}
                   style={styles.image_e}
                   resizeMode="stretch"
                 />

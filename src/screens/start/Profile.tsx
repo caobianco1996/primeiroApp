@@ -2,9 +2,8 @@ import { View, Text, Image, Touchable, ScrollView } from "react-native";
 import { styles } from "./styles";
 import ImagemPerfil from "../../assets/ImagemPerfil.png";
 import Vector from "../../assets/Vector.png";
-import Grupo414 from "../../assets/Grupo 414.png";
+import Novo from "../../assets/Novo.png";
 import Group from "../../assets/Group.png";
-import Elipse from "../../assets/Elipse 1.png";
 import Prosseguir from "../../assets/prosseguir.png";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import { Button } from "../../components/Button";
@@ -28,7 +27,7 @@ export function Profile() {
         <View style={styles.container_d}>
           <Image
             source={ImagemPerfil}
-            style={styles.image_f}
+            style={styles.image_e}
             resizeMode="stretch"
           />
           <View>

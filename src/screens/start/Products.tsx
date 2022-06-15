@@ -5,7 +5,7 @@ import Notebooks from "../../assets/Notebooks.png";
 import Periferico from "../../assets/Periferico.png";
 import Hardware from "../../assets/Hardware.png";
 import Vector from "../../assets/Vector.png";
-import Grupo414 from "../../assets/Grupo 414.png";
+import Novo from "../../assets/Novo.png";
 import Group from "../../assets/Group.png";
 import Elipse from "../../assets/Elipse 1.png";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
@@ -32,16 +32,14 @@ export function Products() {
         </View>
 
         <View>
-        <TextInput
-          //style={(styles.input, styles.register)}
-          placeholder="Insira sua senha"
-          keyboardType="visible-password"
-          //placeholderTextColor={theme.colors.primary}
-          maxLength={20}
-        ></TextInput>
+          <TextInput
+            //style={(styles.input, styles.register)}
+            placeholder="Insira sua senha"
+            keyboardType="visible-password"
+            //placeholderTextColor={theme.colors.primary}
+            maxLength={20}
+          ></TextInput>
         </View>
-
-
 
         <View style={styles.container_c}>
           <View>
@@ -53,7 +51,7 @@ export function Products() {
           </View>
 
           <View>
-          <Text style={styles.subtitle_b}>
+            <Text style={styles.subtitle_b}>
               {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
             </Text>
@@ -70,7 +68,7 @@ export function Products() {
           </View>
 
           <View>
-          <Text style={styles.subtitle_b}>
+            <Text style={styles.subtitle_b}>
               {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
             </Text>
@@ -87,7 +85,7 @@ export function Products() {
           </View>
 
           <View>
-          <Text style={styles.subtitle_b}>
+            <Text style={styles.subtitle_b}>
               {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
             </Text>
@@ -106,7 +104,7 @@ export function Products() {
               </TouchableOpacity>
               <TouchableOpacity>
                 <Image
-                  source={Grupo414}
+                  source={Novo}
                   style={styles.image_e}
                   resizeMode="stretch"
                 />

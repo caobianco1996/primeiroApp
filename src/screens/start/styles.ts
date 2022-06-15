@@ -33,6 +33,7 @@ export const styles = StyleSheet.create({
     justifyContent: "space-evenly",
     alignItems: "center",
     flexDirection: "row",
+    paddingRight: 10,
   },
   separate: {
     flex: 1,
@@ -68,8 +69,8 @@ export const styles = StyleSheet.create({
     alignItems: "center",
   },
   image_e: {
-    width: 25,
-    height: 20,
+    width: 50,
+    height: 40,
     alignItems: "center",
     justifyContent: "center",
   },
