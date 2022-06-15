@@ -7,7 +7,7 @@ import Hardware from "../../assets/Hardware.png";
 import Vector from "../../assets/Vector.png";
 import Novo from "../../assets/Novo.png";
 import Group from "../../assets/Group.png";
-import Elipse from "../../assets/Elipse 1.png";
+import ImagemPerfil from "../../assets/ImagemPerfil.png";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import { TextInput, TouchableOpacity } from "react-native-gesture-handler";
 
@@ -18,8 +18,16 @@ export function Products() {
     navigation.navigate("Profile");
     // navigation.goBack();
   };
+  const HomeStart = () => {
+    navigation.navigate("HomeStart");
+    // navigation.goBack();
+  };
   const Cart = () => {
     navigation.navigate("Cart");
+    // navigation.goBack();
+  };
+  const Payment = () => {
+    navigation.navigate("Payment");
     // navigation.goBack();
   };
 
@@ -92,38 +100,36 @@ export function Products() {
           </View>
         </View>
 
-        <View>
+        <View style={styles.container_b}>
           <View style={styles.buttons}>
-            <View style={styles.icons}>
-              <TouchableOpacity>
-                <Image
-                  source={Vector}
-                  style={styles.image_e}
-                  resizeMode="stretch"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity>
-                <Image
-                  source={Novo}
-                  style={styles.image_e}
-                  resizeMode="stretch"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity onPress={Cart}>
-                <Image
-                  source={Group}
-                  style={styles.image_e}
-                  resizeMode="stretch"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity onPress={Profile}>
-                <Image
-                  source={Elipse}
-                  style={styles.image_e}
-                  resizeMode="stretch"
-                />
-              </TouchableOpacity>
-            </View>
+            <TouchableOpacity onPress={HomeStart}>
+              <Image
+                source={Vector}
+                style={styles.image_e}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity>
+              <Image
+                source={Group}
+                style={styles.image_e}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={Payment}>
+              <Image
+                source={Novo}
+                style={styles.image_e}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
+            <TouchableOpacity onPress={Profile}>
+              <Image
+                source={ImagemPerfil}
+                style={styles.image_e}
+                resizeMode="stretch"
+              />
+            </TouchableOpacity>
           </View>
         </View>
       </View>

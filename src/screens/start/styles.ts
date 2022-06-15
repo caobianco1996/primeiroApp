@@ -25,6 +25,12 @@ export const styles = StyleSheet.create({
     justifyContent: "space-between",
     flexDirection: "row",
   },
+  container_c1: {
+    paddingTop: 40,
+    display: "flex",
+    justifyContent: "space-between",
+    flexDirection: "row",
+  },
   container_d: {
     flex: 1,
     paddingTop: 10,
@@ -128,6 +134,14 @@ export const styles = StyleSheet.create({
     marginBottom: 10,
     lineHeight: 25,
   },
+  subtitle_e: {
+    color: theme.colors.text,
+    fontSize: 14,
+    textAlign: "left",
+    marginBottom: 10,
+    lineHeight: 25,
+    fontWeight: "bold",
+  },
   red: {
     color: "red",
     marginTop: 20,
@@ -176,6 +190,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 35,
     paddingBottom: 30,
   },
+<<<<<<< HEAD
 
   pagamento: {
     color: theme.colors.text,
@@ -351,4 +366,16 @@ export const styles = StyleSheet.create({
     marginRight: 60,
   },
 
+=======
+  input: {
+    color: theme.colors.primary,
+    fontFamily: theme.fonts.text400,
+    fontSize: 20,
+    textAlign: "center",
+    borderBottomColor: theme.colors.primary,
+    borderBottomWidth: 2,
+    marginBottom: 10,
+    marginTop: 10,
+  },
+>>>>>>> b64a582152fa4353944fc0b1855fda7c635a2699
 });

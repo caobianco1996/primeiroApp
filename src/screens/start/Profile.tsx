@@ -8,12 +8,22 @@ import Prosseguir from "../../assets/prosseguir.png";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import { Button } from "../../components/Button";
 import { TouchableOpacity } from "react-native-gesture-handler";
+import { Products } from "./Products";
 
 export function Profile() {
   const navigation = useNavigation<any>();
 
+  const Profile = () => {
+    navigation.navigate("Profile");
+    // navigation.goBack();
+  };
   const HomeStart = () => {
     navigation.navigate("HomeStart");
+    // navigation.goBack();
+  };
+
+  const Payment = () => {
+    navigation.navigate("Payment");
     // navigation.goBack();
   };
 
@@ -27,7 +37,7 @@ export function Profile() {
         <View style={styles.container_d}>
           <Image
             source={ImagemPerfil}
-            style={styles.image_e}
+            style={styles.image_f}
             resizeMode="stretch"
           />
           <View>
@@ -93,21 +103,21 @@ export function Profile() {
                 resizeMode="stretch"
               />
             </TouchableOpacity>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={Products}>
               <Image
                 source={Group}
                 style={styles.image_e}
                 resizeMode="stretch"
               />
             </TouchableOpacity>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={Payment}>
               <Image
-                source={Group}
+                source={Novo}
                 style={styles.image_e}
                 resizeMode="stretch"
               />
             </TouchableOpacity>
-            <TouchableOpacity onPress={Profile}>
+            <TouchableOpacity>
               <Image
                 source={ImagemPerfil}
                 style={styles.image_e}
