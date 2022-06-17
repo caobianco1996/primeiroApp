@@ -380,5 +380,25 @@ export const styles = StyleSheet.create({
     marginRight: 60,
   },
 
+  input: {
+    color: theme.colors.primary,
+    fontFamily: theme.fonts.text400,
+    fontSize: 20,
+    textAlign: "center",
+    borderBottomColor: theme.colors.primary,
+    borderBottomWidth: 2,
+    marginBottom: 10,
+    marginTop: 10,
+  },
+
+  container_products: {
+    backgroundColor: "gray",
+    paddingTop: 40,
+    display: "flex",
+    justifyContent: "space-between",   
+  },
+
+  
+
 
 });
