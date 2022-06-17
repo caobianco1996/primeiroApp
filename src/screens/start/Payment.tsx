@@ -6,12 +6,13 @@ import { TextInput, TouchableOpacity } from "react-native-gesture-handler";
 import { Button } from "../../components/Button";
 import Mastercard from "../../assets/Mastercard.png";
 import Voltar from "../../assets/voltar.png";
+import { Cart } from "./Cart";
 
 export function Payment() {
   const navigation = useNavigation<any>();
 
-  const Profile = () => {
-    navigation.navigate("Profile");
+  const HomeStart = () => {
+    navigation.navigate("HomeStart");
     // navigation.goBack();
   };
 
@@ -57,9 +58,7 @@ export function Payment() {
         <View style={styles.container_envio2}>
           <Text style={styles.envio_para}>Bela Vista - São Paulo - SP</Text>
           </View>
-
           <View style={styles.linha}></View>
-
         <View style={styles.container_pagamento}>
           <Text style={styles.pagamento_title}>Pagamento</Text>
         </View>
@@ -98,8 +97,8 @@ export function Payment() {
           <Text style={styles.total}>R$13.398,98</Text>
         </View>
         <View />
-        <View style={styles.controlsbutons}>
-          <Button title="Comprar" onPress={Profile} />
+        <View style={(styles.controlsbutons, styles.container_g)}>
+          <Button title="Comprar" onPress={HomeStart} />
         </View>
       </View>
     </ScrollView>

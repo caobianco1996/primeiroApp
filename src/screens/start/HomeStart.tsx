@@ -193,7 +193,7 @@ export function HomeStart() {
                 resizeMode="stretch"
               />
             </TouchableOpacity>
-            <TouchableOpacity onPress={Payment}>
+            <TouchableOpacity onPress={Cart}>
               <Image
                 source={Novo}
                 style={styles.image_e}
