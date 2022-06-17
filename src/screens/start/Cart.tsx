@@ -23,14 +23,15 @@ export function Cart() {
           <Text style={styles.title_a}>Sacola {"\n"}</Text>
         </View>
 
+
         <View style={styles.container_c1}>
           <View>
             <Image source={Notebooks} resizeMode="stretch" />
           </View>
 
           <View>
-            <Text style={styles.subtitle_b}>
-              {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
+            <Text style={styles.subtitle_f}>
+              MacBook Air de 13″ {"\n"}Loja sistech Eletronicos{"\n"}R$
               10000,00
             </Text>
           </View>
@@ -61,31 +62,43 @@ export function Cart() {
             </Text>
           </View>
         </View>
+        
         <View style={styles.container_e}>
-          <Text style={styles.subtitle_e}>Cupom de desconto</Text>
-          <View style={styles.container_b}>
-            <TextInput
-              style={styles.input}
-              placeholder="Insira seu cupom de desconto"
-              placeholderTextColor={theme.colors.primary}
-              maxLength={20}
-            ></TextInput>
-          </View>
+        <Text style={styles.label}>Cupom de Desconto</Text>
+        <TextInput
+          style={(styles.input, styles.register)}
+          placeholder="Insira o Cupom de Desconto"
+          keyboardType="email-address"
+          placeholderTextColor={theme.colors.primary}
+          maxLength={20}
+        ></TextInput>
+</View>
           <View>
-            <Text>
-              SubTotal{"\n"}
-              {"\n"}Frete
-            </Text>
+
           </View>
-          <View>
-            <Text style={styles.title_a}>Total</Text>
-            <Text>R$ 13000,00</Text>
-          </View>
-          <View style={styles.controlsbutons}>
+          <View style={styles.container_final}>
+          <Text style={styles.final}>Subtotal</Text>
+          <Text style={styles.final}>R$13.398,98</Text>
+        </View>
+
+ 
+
+        <View style={styles.container_final}>
+          <Text style={styles.final}>Frete</Text>
+          <Text style={styles.final}>Grátis</Text>
+        </View>
+
+
+
+        <View style={styles.container_final}>
+          <Text style={styles.total}>Total</Text>
+          <Text style={styles.total}>R$13.398,98</Text>
+        </View>
+          <View style={(styles.controlsbutons, styles.container_g)}>
             <Button title="Pagamento" onPress={Payment} />
           </View>
         </View>
-      </View>
+
     </ScrollView>
   );
 }

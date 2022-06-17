@@ -13,8 +13,8 @@ import { Products } from "./Products";
 export function Profile() {
   const navigation = useNavigation<any>();
 
-  const Profile = () => {
-    navigation.navigate("Profile");
+  const Products = () => {
+    navigation.navigate("Products");
     // navigation.goBack();
   };
   const HomeStart = () => {

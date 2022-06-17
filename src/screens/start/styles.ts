@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
   container_c1: {
     paddingTop: 40,
     display: "flex",
-    justifyContent: "space-between",
+    justifyContent: "space-evenly",
     flexDirection: "row",
   },
   container_d: {
@@ -53,6 +53,13 @@ export const styles = StyleSheet.create({
   container_e: {
     paddingLeft: 25,
     paddingRight: 25,
+    backgroundColor: theme.colors.white,
+  },
+  container_g: {
+    paddingLeft: 25,
+    paddingRight: 25,
+    paddingTop: 25,
+    paddingBottom: 25,
     backgroundColor: theme.colors.white,
   },
   image_a: {
@@ -134,6 +141,13 @@ export const styles = StyleSheet.create({
     marginBottom: 10,
     lineHeight: 25,
   },
+  subtitle_f: {
+    color: theme.colors.text,
+    fontSize: 14,
+    textAlign: "left",
+    marginBottom: 10,
+    lineHeight: 25,
+  },
   subtitle_e: {
     color: theme.colors.text,
     fontSize: 14,
@@ -141,6 +155,18 @@ export const styles = StyleSheet.create({
     marginBottom: 10,
     lineHeight: 25,
     fontWeight: "bold",
+  },
+  label: {
+    fontFamily: theme.fonts.text500,
+    fontSize: 15,
+    textAlign: "left",
+  },
+  register: {
+    textAlign: "left",
+    fontSize: 14,
+    borderBottomColor: theme.colors.primary,
+    borderBottomWidth: 2,
+    marginBottom: 20,
   },
   red: {
     color: "red",
@@ -189,6 +215,7 @@ export const styles = StyleSheet.create({
     width: "100%",
     paddingHorizontal: 35,
     paddingBottom: 30,
+    backgroundColor: theme.colors.white,
   },
 
   pagamento: {
