@@ -53,13 +53,13 @@ export function Products() {
           <View>
             <Image
               source={Notebooks}
-              style={styles.image_d}
+              style={styles.image_products}
               resizeMode="stretch"
             />
           </View>
 
           <View>
-            <Text style={styles.subtitle_b}>
+            <Text style={styles.subtitle_product}>
               {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
             </Text>
@@ -70,13 +70,13 @@ export function Products() {
           <View>
             <Image
               source={Hardware}
-              style={styles.image_d}
+              style={styles.image_products}
               resizeMode="stretch"
             />
           </View>
 
           <View>
-            <Text style={styles.subtitle_b}>
+            <Text style={styles.subtitle_product}>
               {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
             </Text>
@@ -87,13 +87,13 @@ export function Products() {
           <View>
             <Image
               source={Periferico}
-              style={styles.image_d}
+              style={styles.image_products}
               resizeMode="stretch"
             />
           </View>
 
           <View>
-            <Text style={styles.subtitle_b}>
+            <Text style={styles.subtitle_product}>
               {"\n"}MacBook Air de 13″ {"\n"} Loja sistech Eletronicos{"\n"} R$
               10000,00
             </Text>

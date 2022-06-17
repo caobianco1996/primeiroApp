@@ -190,7 +190,6 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 35,
     paddingBottom: 30,
   },
-<<<<<<< HEAD
 
   pagamento: {
     color: theme.colors.text,
@@ -366,16 +365,20 @@ export const styles = StyleSheet.create({
     marginRight: 60,
   },
 
-=======
-  input: {
-    color: theme.colors.primary,
-    fontFamily: theme.fonts.text400,
-    fontSize: 20,
-    textAlign: "center",
-    borderBottomColor: theme.colors.primary,
-    borderBottomWidth: 2,
-    marginBottom: 10,
-    marginTop: 10,
+  image_products: {
+    flex: 1,
+    marginLeft: 40,
+    width: 100,
+    alignItems: "center",
   },
->>>>>>> b64a582152fa4353944fc0b1855fda7c635a2699
+
+  subtitle_product: {
+    color: theme.colors.text,
+    fontWeight: "bold",
+    fontSize: 14,
+    textAlign: "left",       
+    marginRight: 60,
+  },
+
+
 });
