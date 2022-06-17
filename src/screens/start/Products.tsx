@@ -7,6 +7,8 @@ import Hardware from "../../assets/Hardware.png";
 import Vector from "../../assets/Vector.png";
 import Novo from "../../assets/Novo.png";
 import Group from "../../assets/Group.png";
+import Menu from "../../assets/menu.png";
+import Search from "../../assets/search.png";
 import ImagemPerfil from "../../assets/ImagemPerfil.png";
 import { useNavigation, useFocusEffect } from "@react-navigation/native";
 import { TextInput, TouchableOpacity } from "react-native-gesture-handler";
@@ -39,14 +41,13 @@ export function Products() {
           <Image source={bag} style={styles.image_b} resizeMode="stretch" />
         </View>
 
-        <View>
-          <TextInput
-            //style={(styles.input, styles.register)}
-            placeholder="Insira sua senha"
-            keyboardType="visible-password"
-            //placeholderTextColor={theme.colors.primary}
+        <View style={styles.container_c}>
+        <Image source={Search} style={styles.image_b} resizeMode="stretch" />
+          <TextInput            
+            placeholder="O que você esta procurando?"          
             maxLength={20}
           ></TextInput>
+          <Image source={Menu} style={styles.image_b} resizeMode="stretch" />
         </View>
 
         <View style={styles.container_c}>
