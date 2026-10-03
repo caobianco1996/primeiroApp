@@ -1,18 +1,36 @@
-# Meu App
+# Sistech — protótipo de app de loja
 
-Aplicativo Expo/React Native com telas de início, login/cadastro, catálogo, sacola e pagamento demonstrativo.
+Aplicativo móvel de demonstração feito com Expo e React Native. Inclui telas de início, login/cadastro, catálogo, sacola e pagamento demonstrativo.
 
-## Requisitos e execução
+## Requisitos
 
-Use a versão de Node compatível com Expo 44 e instale dependências com npm:
+- Node.js compatível com Expo SDK 44
+- npm
+- Expo Go compatível com o SDK antigo ou emulador Android/iOS apropriado
 
-```sh
+## Instalação e execução
+
+Na raiz do repositório:
+
+~~~sh
 npm ci
 npm start
-```
+~~~
 
-Use o menu do Expo para abrir Android, iOS ou web. Os scripts `npm run android`, `npm run ios` e `npm run web` também estão definidos no `package.json`.
+O Expo inicia o servidor de desenvolvimento e mostra um QR code/menu. Abra com o emulador ou dispositivo compatível. Também há atalhos:
 
-## Estado atual
+~~~sh
+npm run android
+npm run ios
+npm run web
+~~~
 
-As telas de cadastro, carrinho e pagamento são protótipos locais; não criam conta, persistem carrinho nem processam pagamentos. Não use dados de cartão reais. Uma próxima etapa deve integrar uma API e um provedor de pagamento por fluxo hospedado/tokenizado.
+O suporte a iOS pode exigir macOS e Xcode. Este projeto usa Expo 44, uma versão antiga; se o ambiente atual não for compatível, consulte a documentação de migração do Expo ou use um ambiente compatível com o SDK do projeto.
+
+## Como verificar
+
+Não há script de teste automatizado no package.json. Faça uma verificação manual percorrendo as telas de navegação, login/cadastro, catálogo, sacola e pagamento demonstrativo.
+
+## Limitações e segurança
+
+As telas são protótipos locais: não criam contas, não persistem a sacola e não processam pagamentos. Não informe dados pessoais ou de cartão reais. Uma versão funcional precisa de API e de fluxo hospedado/tokenizado de um provedor de pagamento.
